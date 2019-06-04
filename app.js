@@ -20,7 +20,8 @@ function calc() {
         letter1 = first.substring(count, count + 1);
 
         if (letter1 == 'L') loveCount += 2;
-          
+        if (letter1=='O') loveCount+=2;
+
 
 
 
