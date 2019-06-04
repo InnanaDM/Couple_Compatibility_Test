@@ -9,11 +9,20 @@ console.log("connected");
 function calc() {
     // will change input to uppercase
     first = document.loveform.name1.value.toUpperCase();
-
+    firstlength = document.loveform.name1.value.length;
     second = document.loveform.name2.value.toUpperCase();
+    secondlength = document.loveform.name2.value.length;
 
     const loveCount = 0;
 
-
     // ?for loop?
+    for (count=0; count < firstlength; count++) {
+        letter1 = first.substring(count, count + 1);
+
+        if (letter1 == 'L') loveCount += 2;
+          
+
+
+
+    }
 }
