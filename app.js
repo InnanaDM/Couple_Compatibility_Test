@@ -24,7 +24,7 @@ function calc() {
         if (letter1=='V') loveCount+=2;
         if (letter1=='E') loveCount+=2;
         if (letter1=='Y') loveCount+=3;
-
+        if (letter1=='O') loveCount+=1;
 
     }
 }
