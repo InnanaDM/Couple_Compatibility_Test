@@ -19,14 +19,30 @@ function calc() {
     for (count=0; count < firstLength; count++) {
         letter1 = first.substring(count, count + 1);
 
-        if (letter1 == 'U') loveCount += 1;
-        if (letter1=='S') loveCount+=3;
-        if (letter1=='E') loveCount+=2;
-        if (letter1=='L') loveCount+=4;
-        if (letter1=='O') loveCount+=5;
-        if (letter1=='V') loveCount+=7;
-        if (letter1=='E') loveCount+=6;
+        if (letter1 == 'L') loveCount += 1;
+        if (letter1=='O') loveCount+=3;
+        if (letter1=='V') loveCount+=2;
+        if (letter1=='I') loveCount+=4;
+        if (letter1=='N') loveCount+=5;
+        if (letter1=='G') loveCount+=7;
+        if (letter1=='M') loveCount+=6;
+        if (letter1=='E') loveCount+=8;
     }
 
     // ?another loop?
+    for (count=0; count < secondLength; count++) {
+        letter2 = second.substring(count, count+1);
+
+        if (letter2 == 'L') loveCount += 1;
+        if (letter2=='O') loveCount+=3;
+        if (letter2=='V') loveCount+=2;
+        if (letter2=='I') loveCount+=4;
+        if (letter2=='N') loveCount+=5;
+        if (letter2=='G') loveCount+=7;
+        if (letter2=='M') loveCount+=6;
+        if (letter2=='E') loveCount+=8;
+    }
+
+    var amount = 0;
+    // !if statement... determine score, score should stay the same if same names entered
 }
