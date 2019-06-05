@@ -45,4 +45,11 @@ function calc() {
 
     var amount = 0;
     // !if statement... determine score, score should stay the same if same names entered
+
+    if (loveCount > 0) amount = 2 - ((firstLength + secondLength))
+    if (loveCount > 5) amount = 10 - ((firstLength + secondLength))
+    if (loveCount > 10) amount = 20 - ((firstLength + secondLength))
+    if (loveCount > 15) amount = 30 - ((firstLength + secondLength))
+    
+
 }
