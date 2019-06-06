@@ -9,10 +9,10 @@ console.log("connected");
 function calc() {
     
     // will change input to uppercase
-    first = document.loveform.name1.value.toUpperCase();
-    firstLength = document.loveform.name1.value.length;
-    second = document.loveform.name2.value.toUpperCase();
-    secondLength = document.loveform.name2.value.length;
+    first = document.loveForm.name1.value.toUpperCase();
+    firstLength = document.loveForm.name1.value.length;
+    second = document.loveForm.name2.value.toUpperCase();
+    secondLength = document.loveForm.name2.value.length;
 
     const loveCount = 0;
 
@@ -68,6 +68,6 @@ function calc() {
 
     // !out of 100 percent!
 
-    document.loveform.output.value = amount + "%";
+    document.loveForm.output.value = amount + "%";
     console.log("calculating");
 }
