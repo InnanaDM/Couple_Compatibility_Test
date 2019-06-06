@@ -47,18 +47,18 @@ function calc() {
     var amount = 0;
     // !if statement... determine score, score should stay the same if same names entered
 
-    if (loveCount > 0) amount = 2 - ((firstLength + secondLength))
-    if (loveCount > 5) amount = 10 - ((firstLength + secondLength))
-    if (loveCount > 10) amount = 20 - ((firstLength + secondLength))
-    if (loveCount > 15) amount = 30 - ((firstLength + secondLength))
-    if (loveCount > 20) amount = 40 - ((firstLength + secondLength))
-    if (loveCount > 25) amount = 50 - ((firstLength + secondLength))
-    if (loveCount > 30) amount = 60 - ((firstLength + secondLength))
-    if (loveCount > 35) amount = 70 - ((firstLength + secondLength))
-    if (loveCount > 40) amount = 80 - ((firstLength + secondLength))
-    if (loveCount > 45) amount = 90 - ((firstLength + secondLength))
-    if (loveCount > 50) amount = 100 - ((firstLength + secondLength))
-    if (loveCount > 55) amount = 110 - ((firstLength + secondLength))
+    if (loveCount > 0) amount = 2 - ((firstLength + secondLength)/2)
+    if (loveCount > 5) amount = 10 - ((firstLength + secondLength)/2)
+    if (loveCount > 10) amount = 20 - ((firstLength + secondLength)/2)
+    if (loveCount > 15) amount = 30 - ((firstLength + secondLength)/2)
+    if (loveCount > 20) amount = 40 - ((firstLength + secondLength)/2)
+    if (loveCount > 25) amount = 50 - ((firstLength + secondLength)/2)
+    if (loveCount > 30) amount = 60 - ((firstLength + secondLength)/2)
+    if (loveCount > 35) amount = 70 - ((firstLength + secondLength)/2)
+    if (loveCount > 40) amount = 80 - ((firstLength + secondLength)/2)
+    if (loveCount > 45) amount = 90 - ((firstLength + secondLength)/2)
+    if (loveCount > 50) amount = 100 - ((firstLength + secondLength)/2)
+    if (loveCount > 55) amount = 110 - ((firstLength + secondLength)/2)
 
     // *if no names are entered give err
     if (firstLength == 0 || secondLength == 0) amount = "No Names Given";
