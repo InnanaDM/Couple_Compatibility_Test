@@ -25,5 +25,10 @@ form {
 h1 {
     font-size: 80px;
     color: red;
+    
+}
+
+h2 {
+    font-weight: 900;
 }
 
