@@ -25,10 +25,12 @@ form {
 h1 {
     font-size: 80px;
     color: red;
-    
+    font-weight: 900;
+    text-align: center;
 }
 
 h2 {
     font-weight: 900;
+    text-align: center;
 }
 
