@@ -2,35 +2,45 @@ input {
     height: 80px;
     font-size: 48px;
     margin: 40px;
+    color: black;
 }
 
 form {
     font-size: 50px;
     font-weight: 900;
+    text-align: center;
 }
 
 .button {
     background-image: url("love.png");
-    color: black;
+    color: red;
+    background: black;
     font-weight: 700;
+    font-size: 50px;
     border-radius: 10px;
     outline: none;
+    height: 120px;
+    width: 250px;
+    
 }
 
 .container {
     background: pink;
+    height: 1200px;
    
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 120px;
     color: red;
     font-weight: 900;
     text-align: center;
+    margin: 0px;
 }
 
 h2 {
     font-weight: 900;
     text-align: center;
+    font-size: 40px;
 }
 

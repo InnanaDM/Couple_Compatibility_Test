@@ -86,4 +86,6 @@ if (loveCount>22) amount=110-((firstLength+secondLength)/2)
 
     document.loveForm.output.value = amount + "%";
     console.log("calculating");
+
+    
 }
