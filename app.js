@@ -80,6 +80,8 @@ if (loveCount>22) amount=110-((firstLength+secondLength)/2)
     if (amount < 0) amount = 0;
     if (amount > 99) amount = 99;
 
+    if (firstLength == secondLength) amount = "100";
+
     // !out of 100 percent!
 
     document.loveForm.output.value = amount + "%";
